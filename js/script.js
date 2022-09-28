@@ -25,10 +25,11 @@ modal.init();
 const tooltip = new Tooltip('[data-tooltip]');
 tooltip.init();
 
-Tooltip();
 initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
 initFetchAnimais();
 initFetchBitcoin();
 initAnimacaoScroll();
+
+fetch('../../animaisapi.json', 'numeros-grid');
